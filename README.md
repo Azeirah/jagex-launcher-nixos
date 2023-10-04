@@ -1,7 +1,9 @@
 ![](https://runescape.wiki/images/thumb/Jagex_Launcher_icon.png/128px-Jagex_Launcher_icon.png)
 # Jagex Launcher NixOS
 
-This repository contains instruction on how to install the Jagex Launcher in NixOS to play RuneScape and Old School RuneScape. Forked from TomStorm's [Jagex Launcher Linux](https://github.com/TormStorm/jagex-launcher-linux) to adjust for NixOS specific configuration.
+This repository contains instruction on how to install the Jagex Launcher in NixOS to play RuneScape and Old School RuneScape. 
+
+Forked from TomStorm's [Jagex Launcher Linux](https://github.com/TormStorm/jagex-launcher-linux) to adjust for NixOS specific configuration.
 
 ## Jagex Launcher
 
