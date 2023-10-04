@@ -5,4 +5,5 @@ systemd-run --user --service-type=forking \
     --setenv=JX_CHARACTER_ID="$JX_CHARACTER_ID" \
     --setenv=JX_DISPLAY_NAME="$JX_DISPLAY_NAME" \
     --setenv=JX_REFRESH_TOKEN="$JX_REFRESH_TOKEN" \
-    --setenv=JX_SESSION_ID="$JX_SESSION_ID" runelite
+    --setenv=JX_SESSION_ID="$JX_SESSION_ID" \
+    runelite
