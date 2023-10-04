@@ -7,7 +7,7 @@ This repository contains instruction on how to install the Jagex Launcher in Nix
 
 ### Requirements
 
-* [Flatpak](https://www.flatpak.org/setup)<br>
+* [Flatpak](https://www.flatpak.org/setup)<br> (Only required for HDOS)
 * [Lutris](https://flathub.org/apps/net.lutris.Lutris)<br>
 * [Installation script](https://github.com/kurtmorris/jagex-launcher-nixos/blob/main/resources/jagexlauncher.yml)<br>
 
@@ -21,8 +21,15 @@ This repository contains instruction on how to install the Jagex Launcher in Nix
 
 After installing the Jagex Launcher you can install the following clients:
 
-RuneScape: `flatpak install flathub com.jagex.RuneScape`<br>
-RuneLite: `flatpak install flathub net.runelite.RuneLite`<br>
+#### NixOS Configuration File
+```
+  environment.systemPackages = [
+    pkgs.runescape
+    pkgs.runelite
+  ];
+```
+
+#### CLI (Install from Command line)
 HDOS: `flatpak install flathub dev.hdos.HDOS`<br>
 
 ### Steam Deck
