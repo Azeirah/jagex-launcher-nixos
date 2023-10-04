@@ -1,7 +1,7 @@
 ![](https://runescape.wiki/images/thumb/Jagex_Launcher_icon.png/128px-Jagex_Launcher_icon.png)
-# Jagex Launcher Linux
+# Jagex Launcher NixOS
 
-This repository contains instruction on how to install the Jagex Launcher in Linux to play RuneScape and Old School RuneScape
+This repository contains instruction on how to install the Jagex Launcher in NixOS to play RuneScape and Old School RuneScape. Forked from TomStorm's [Jagex Launcher Linux](https://github.com/TormStorm/jagex-launcher-linux) to adjust for NixOS specific configuration.
 
 ## Jagex Launcher
 
@@ -9,7 +9,7 @@ This repository contains instruction on how to install the Jagex Launcher in Lin
 
 * [Flatpak](https://www.flatpak.org/setup)<br>
 * [Lutris](https://flathub.org/apps/net.lutris.Lutris)<br>
-* [Installation script](https://github.com/TormStorm/jagex-launcher-linux/blob/main/resources/jagexlauncher.yml)<br>
+* [Installation script](https://github.com/kurtmorris/jagex-launcher-nixos/blob/main/resources/jagexlauncher.yml)<br>
 
 ### Installation
 
@@ -44,4 +44,4 @@ If you are using RuneLite on the Steam Deck you can import a properties file to 
 
 ### Additional information
 
-For additional information and troubleshooting visit the [jagex-launcher-linux wiki](https://github.com/TormStorm/jagex-launcher-linux/wiki)<br>
+For additional information and troubleshooting visit the [jagex-launcher-linux wiki](https://github.com/kurtmorris/jagex-launcher-nixos/wiki)<br>
