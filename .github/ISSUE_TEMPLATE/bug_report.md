@@ -7,6 +7,18 @@ assignees: ''
 
 ---
 
+This is for bug reports on the Lutris script
+For issues on other project linked on this repository please report it to their respective GitHub pages
+
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 

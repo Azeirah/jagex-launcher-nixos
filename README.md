@@ -13,15 +13,17 @@ Forked from TomStorm's [Jagex Launcher Linux](https://github.com/TormStorm/jagex
 * [Lutris](https://flathub.org/apps/net.lutris.Lutris)<br>
 * [Installation script](https://github.com/kurtmorris/jagex-launcher-nixos/blob/main/resources/jagexlauncher.yml)<br>
 
-### Installation
+### RuneLite Installation
 
-1. Get the requirements from the links above and open Lutris<br>
-2. Click the `+` in the top left corner of Lutris and select `Install from a local install script`<br>
-3. Follow the on screen instructions leaving the installation directory as default<br>
+You can import a [properties file](https://github.com/TormStorm/jagex-launcher-linux/blob/main/resources/steamdeck-settings.properties) or log in to import your profiles  
+While in desktop mode open the Jagex Launcher and start RuneLite  
 
-### Game Clients
+To import a properties file open the configuration menu and select the profiles tab  
+Click `import profile` navigate to your properties file and open it  
 
-After installing the Jagex Launcher you can install the following clients:
+To log in to your RuneLite account click the login button at the bottom right of your client  
+A browser will open where you will be able to sign in and import your profiles  
+
 
 #### NixOS Configuration File
 ```
